@@ -1,0 +1,37 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body .container-fluid .row,
+html .container-fluid .row {
+  width: 100vw;
+}
+body .container-fluid .row #wrapper,
+html .container-fluid .row #wrapper {
+  border-radius: 30px;
+  box-shadow: 10px 10px 25px #e0e0e0;
+}
+body .container-fluid .row #wrapper .exchange,
+html .container-fluid .row #wrapper .exchange {
+  font-size: 45px;
+  font-weight: 700;
+}
+body .container-fluid .row #wrapper .pair,
+html .container-fluid .row #wrapper .pair {
+  font-size: 20px;
+  font-weight: 500;
+}
+body .container-fluid .row #wrapper .price,
+html .container-fluid .row #wrapper .price {
+  font-family: Consolas, monaco, monospace;
+  font-size: 40px;
+  font-weight: 700;
+}
+body .container-fluid .row #wrapper .arrow,
+html .container-fluid .row #wrapper .arrow {
+  position: relative;
+  width: 2vw !important;
+  border: 1px solid red;
+}
